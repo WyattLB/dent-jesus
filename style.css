@@ -82,6 +82,15 @@ section {
   color: #D0D0D0;
 }
 
+.section-cta {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.section-cta .button {
+  color: var(--black);
+}
+
 /* Header */
 .site-header {
   position: sticky;
@@ -1014,5 +1023,10 @@ section {
 .footer-credit {
   opacity: 0.7;
   font-size: 0.8rem;
+}
+
+.footer--center .footer-bottom {
+  justify-content: center;
+  text-align: center;
 }
 
