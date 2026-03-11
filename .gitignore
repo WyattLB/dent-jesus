@@ -1,0 +1,5 @@
+# Local template source (not needed for deployment)
+website-templates/
+
+# OS
+.DS_Store
