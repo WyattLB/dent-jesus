@@ -95,12 +95,21 @@ section {
 .site-header {
   position: sticky;
   top: 0;
-  z-index: 40;
+  z-index: 100;
   background-color: rgba(12, 12, 12, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   transition: padding 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   padding: 0.9rem 1.25rem;
+  min-height: 3.5rem;
+}
+
+@media (max-width: 767px) {
+  .site-header {
+    background-color: #0C0C0C;
+    min-height: 4rem;
+    padding: 0.6rem 1rem;
+  }
 }
 
 .site-header.scrolled {
@@ -128,10 +137,35 @@ section {
   width: auto;
 }
 
+@media (max-width: 767px) {
+  .header-inner {
+    min-height: 3rem;
+  }
+  .logo {
+    height: 48px;
+    max-height: 48px;
+  }
+  .header-left {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+  .logo-link {
+    display: block;
+    max-width: 180px;
+  }
+  .logo-link .logo {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: left center;
+  }
+}
+
 .header-right {
   display: flex;
   align-items: center;
   gap: 1rem;
+  flex-shrink: 0;
 }
 
 .main-nav {
@@ -173,8 +207,37 @@ section {
   width: 100%;
 }
 
+.header-call-mobile {
+  display: none;
+}
+
 .header-cta {
   display: none;
+}
+
+@media (max-width: 767px) {
+  .header-call-mobile {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+  }
+  .header-call-mobile:hover {
+    text-decoration: none;
+    filter: brightness(1.05);
+  }
+  /* Keep header "Book Now" hidden on mobile so it doesn't cover logo/call/hamburger */
+  .site-header .header-cta {
+    display: none !important;
+  }
 }
 
 .hamburger {
@@ -211,16 +274,26 @@ section {
 .mobile-menu {
   position: fixed;
   inset-inline: 0;
-  top: 56px;
+  top: 4rem;
   background-color: #101010;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   transform: translateY(-100%);
-  transition: transform 0.2s ease;
-  z-index: 35;
+  transition: transform 0.2s ease, visibility 0.2s ease;
+  z-index: 99;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu {
+    top: 4rem;
+  }
 }
 
 .mobile-menu.is-open {
   transform: translateY(0);
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .mobile-menu ul {
@@ -265,6 +338,10 @@ section {
 
   .main-nav {
     display: block;
+  }
+
+  .header-call-mobile {
+    display: none;
   }
 
   .header-cta {

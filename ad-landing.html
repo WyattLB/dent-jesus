@@ -26,17 +26,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- REUSABLE SITE HEADER (same block as index.html; update .nav-link.active per page) -->
   <header class="site-header" role="banner">
     <div class="header-inner">
       <div class="header-left">
-        <a href="#lead-form" class="logo-link" aria-label="Dent Jesus paintless dent repair">
+        <a href="index.html" class="logo-link" aria-label="Dent Jesus Home">
           <img src="images/logo-dent-jesus-paintless-dent-repair-okc.webp" alt="Dent Jesus paintless dent repair logo" class="logo">
         </a>
       </div>
       <div class="header-right">
-        <a href="tel:+14056274946" class="header-cta">Call Now</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="paintless-dent-repair.html" class="nav-link">Paintless Dent Repair</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="tel:+14056274946" class="header-call-mobile" aria-label="Call Dent Jesus">Call Us</a>
+        <a href="index.html#contact-form" class="header-cta">Book Now</a>
+        <button id="hamburger" class="hamburger" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </div>
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="paintless-dent-repair.html" class="nav-link">Paintless Dent Repair</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="index.html#contact-form" class="mobile-book-cta">Book Now</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main id="main-content">
