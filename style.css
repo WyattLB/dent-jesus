@@ -1135,18 +1135,34 @@ section {
   filter: brightness(1.05);
 }
 
+/* Ad landing: header logo 50% larger, header resized to fit */
+.site-header--landing .logo {
+  height: 54px;
+  max-height: 54px;
+}
+
+@media (min-width: 768px) {
+  .site-header--landing .logo {
+    height: 180px;
+    max-height: 180px;
+  }
+  .site-header--landing {
+    padding: 0.6rem 1.25rem !important;
+  }
+}
+
 /* Ad landing mobile: tighter header + hero above the fold */
 @media (max-width: 767px) {
   .site-header--landing {
-    padding: 0.35rem 0.75rem !important;
+    padding: 0.4rem 0.75rem !important;
     min-height: auto !important;
   }
   .site-header--landing .header-inner {
-    min-height: 2.5rem;
+    min-height: 3.5rem;
   }
   .site-header--landing .logo {
-    height: 36px !important;
-    max-height: 36px !important;
+    height: 54px !important;
+    max-height: 54px !important;
   }
   .hero-section--with-form {
     min-height: 0;
