@@ -1,0 +1,119 @@
+Cursor AI Mega Prompt — Dent Jesus Website (Phase 1: Home Page + Header/Footer Templates)
+
+CONTEXT
+You are building a 4-page website for Dent Jesus, a paintless dent repair (PDR) business in Oklahoma City run by Gray Diffee. The site will be built in plain HTML, CSS, and JavaScript — no frameworks. Each page will be a separate .html file sharing a common header and footer.
+This is Phase 1: build index.html (Home page) with a fully templated header and footer that will be reused across all 4 pages.
+
+REPOSITORY STRUCTURE
+Your repo contains:
+
+/templates/ — prebuilt section templates (hero, testimonials, header, footer, etc.). Review all template files before building. Use them as the structural and stylistic foundation — adapt and extend rather than ignore.
+/images/ — logo file and before/after images (each image already shows before on the left and after on the right in a single file)
+seo-best-practices.md — read this file and apply every applicable recommendation to the HTML (meta tags, heading hierarchy, schema markup, alt text, page speed considerations, etc.)
+
+
+BRAND & DESIGN
+Colors (CSS variables — define in :root):
+--yellow: #FED402
+--black: #0C0C0C
+--white: #F5F4F0  /* off-white */
+--gray: #333333
+Tone: Clean, professional, modern, trustworthy. Local Oklahoma business. Not flashy — confident and credible.
+Typography: Use Google Fonts. Pair a strong, bold display/heading font with a clean, readable body font. Avoid Inter, Roboto, Arial. Make a deliberate choice that fits the brand.
+Spacing: Generous section padding. Breathable layouts. Don't crowd elements.
+
+HEADER (reusable template)
+
+Sticky — shrinks slightly on scroll (use a .scrolled class toggled via JS)
+Logo: left-aligned (/images/logo — find the correct file)
+Nav links (right side): Home · Paintless Dent Repair · About · Contact
+CTA button: "Book Now" — links to /contact.html — styled in --yellow with --black text, bold
+Mobile: hamburger menu that toggles a full nav dropdown
+Active page state: highlight the current page's nav link
+
+
+FOOTER (reusable template)
+
+Dark background (--black), light text
+Logo top or left
+Nav links repeated
+Phone number: (405) 627-4946 (clickable tel: link)
+Copyright: © 2026 Dent Jesus | Designed by Evolve Agency
+Simple, clean — 2–3 columns max
+
+
+HOME PAGE SECTIONS (in order)
+1. Hero
+
+Full-width background image (use the best available image from /images/)
+Dark overlay so text is readable
+Headline: "No Car is Too Far Gone"
+Subheadline: "Saving your Car from Dents and Hail Damage"
+Two CTA buttons: "Call Now: (405) 627-4946" (tel: link) and "Book Online" (links to /contact.html)
+Text and buttons centered or left-aligned — your call based on what looks best
+
+2. Why Choose Dent Jesus?
+
+Section headline: "Why Choose Dent Jesus?"
+3–4 feature/trust cards with icons. Use these talking points:
+
+Oklahoma born and raised — truly local
+Quality work and honest business
+PDR preserves your car's original paint and value
+No job too big — dents, dings, and hail damage
+
+
+Clean card layout, icon + short headline + 1-sentence description
+
+3. Before & After
+
+Section headline: "See the Results"
+Display 2–3 of the before/after images from /images/ in a clean grid or row
+Each image already shows before (left) and after (right) — no special slider needed
+Add a short caption or label if it helps readability
+Optional subtle "hover to zoom" effect
+
+4. Testimonials
+
+Section headline: "What Our Customers Say"
+Two review cards:
+
+"Gray went above and beyond to help me have a great experience; not only in his work, but also with our insurance and rental issues. The repair work is impeccable! I highly recommend Dent Jesus!" — Callie Kiner
+"Highly recommend Dent Jesus and Gray! Customer service and communication was wonderful. He got my car looking like new again after some hail damage. Give him a call!" — Kelli Frieling
+
+
+Star ratings (5 stars, visual)
+Card style — clean, light background or subtle border
+
+5. Book Appointment CTA
+
+Bold section with a contrasting background (--yellow or --black)
+Headline: "Let's get the ball rolling!"
+Subtext: "Schedule with us today, and get your car the treatment it deserves."
+Button: "Book Online" → /contact.html
+
+
+SEO REQUIREMENTS
+Follow all guidance in seo-best-practices.md. At minimum:
+
+Unique <title> and <meta description> for the home page
+Proper heading hierarchy (h1 → h2 → h3)
+Descriptive alt text on all images
+LocalBusiness schema markup in <script type="application/ld+json"> (business name, phone, address area: Oklahoma City, OK, service type: Paintless Dent Repair)
+Canonical tag
+Open Graph tags (title, description, image)
+Semantic HTML throughout (<header>, <main>, <section>, <footer>, <nav>)
+
+
+TECHNICAL NOTES
+
+All CSS in a single external style.css file
+All JS in a single external main.js file
+Header and footer HTML should be clearly commented as reusable template blocks (easy to copy into the other 3 pages)
+Mobile-first responsive design — fully functional at 375px and up
+No external JS libraries unless already present in the repo
+Do not use <form> tags that submit to nowhere — contact form lives on /contact.html
+
+
+DELIVERABLE
+A complete, browser-ready index.html + style.css + main.js for the home page, with the header and footer ready to be copy-pasted into about.html, paintless-dent-repair.html, and contact.html in the next phase.
