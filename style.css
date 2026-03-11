@@ -1143,8 +1143,8 @@ section {
 
 @media (min-width: 768px) {
   .site-header--landing .logo {
-    height: 180px;
-    max-height: 180px;
+    height: 108px;
+    max-height: 108px;
   }
   .site-header--landing {
     padding: 0.6rem 1.25rem !important;
