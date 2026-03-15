@@ -1,23 +1,23 @@
-# **SEO Notes — *Get Found* by Matt Diamante**
+# **SEO Notes - *Get Found* by Matt Diamante**
 
 ---
 
 ## **Recommended Reading**
 
-* *They Ask, You Answer* — Marcus Sheridan  
-* *Jab, Jab, Jab, Right Hook* — Gary Vaynerchuk  
-* *Profit First* — Mike Michalowicz  
-* *The One Thing* — Gary Keller & Jay Papasan
+* *They Ask, You Answer* - Marcus Sheridan  
+* *Jab, Jab, Jab, Right Hook* - Gary Vaynerchuk  
+* *Profit First* - Mike Michalowicz  
+* *The One Thing* - Gary Keller & Jay Papasan
 
 ---
 
 ## **Content Writing Principles**
 
-* Write so clearly a 7th grader can understand it — dumb it down  
+* Write so clearly a 7th grader can understand it - dumb it down  
 * Aim for slightly more word count than the current \#1 ranking page  
 * **Long-tail keywords:** The searcher knows exactly what they want and is far more likely to purchase  
 * **Branded search** makes ranking easier and is a clear signal your marketing is working  
-* Use numbered lists and bullets — readers love them and they keep people engaged  
+* Use numbered lists and bullets - readers love them and they keep people engaged  
 * One image per 200 words of content
 
 ---
@@ -49,14 +49,14 @@
 
 * 80–156 characters  
 * Include primary keyword near the beginning  
-* Google doesn't directly factor them into rankings — don't stress over them
+* Google doesn't directly factor them into rankings - don't stress over them
 
 ---
 
 ## **URLs**
 
 * Include the relevant keyword (except the homepage, which stays generic)  
-* Don't keyword stuff — use it once  
+* Don't keyword stuff - use it once  
 * Use subfolders appropriately: `/blog`, `/services`, `/products`, `/press`, `/careers`
 
 ---
@@ -68,7 +68,7 @@
 | H1 | Only one per page; under 60 characters; keyword at the beginning |
 | H2 | At least 2 per page; subtopics that support the H1; keyword not required at start |
 | H3 | Supporting details; only use when it makes sense for the reader |
-| H4–H6 | If you need these, the topic is too deep — split it into separate pages |
+| H4–H6 | If you need these, the topic is too deep - split it into separate pages |
 
 * Flow logically: H1 → H2 → H3 (you can return from H3 back up to H2 as needed)  
 * When headings align with "People Also Ask" and "People Also Search," you can earn **rich snippets** which improve click-through rate (CTR)
@@ -110,7 +110,7 @@
 * Keep each image under **250KB**  
 * Photos of your team, office, and happy clients build trust  
 * Use infographics  
-* **Alt text:** Describe what the image actually shows — don't keyword stuff  
+* **Alt text:** Describe what the image actually shows - don't keyword stuff  
   * Good example: *"illustration of a stack of blueberry pancakes in a kitchen"*
 
 ---
@@ -118,7 +118,7 @@
 ## **Video**
 
 * Keeps people on your page longer, which is a positive SEO signal  
-* Host on YouTube, Vimeo, or Loom — **do not self-host** (it will slow your site)  
+* Host on YouTube, Vimeo, or Loom - **do not self-host** (it will slow your site)  
 * Google indexes **one video per page**  
 * Embedding others' videos helps them rank, so use your own when possible  
 * Record audio calls or discussions → transcribe → use as a blog post starting point  
@@ -132,7 +132,7 @@
 * Domain authority \= trust score  
 * Quality and **variety** of referring domains matters more than total backlink count  
 * Focus on diversity, not just volume  
-* Reciprocal links dilute value — triangle links are better  
+* Reciprocal links dilute value - triangle links are better  
 * Negative SEO via bad links doesn't work anymore  
 * **Spam score:** 1% is great; 30% or higher is a problem  
 * Do **not** use the disavow tool  
@@ -146,7 +146,7 @@
 
 ## **Local SEO**
 
-* **Directories:** Yelp, Yellow Pages, 411, Foursquare — get reviews on these too, primarily Yelp  
+* **Directories:** Yelp, Yellow Pages, 411, Foursquare - get reviews on these too, primarily Yelp  
 * **NAP consistency:** Name, Address, and Phone number must be 100% identical everywhere  
 * Get involved in networking events, community initiatives, charity drives, and sponsorships  
 * Match or exceed top 3–5 local competitors' Chamber of Commerce links  
@@ -156,9 +156,9 @@
 
 ## **Technical SEO**
 
-* **WordPress:** Use WP Rocket plugin; avoid Bluehost — try CrocWeb for speed  
+* **WordPress:** Use WP Rocket plugin; avoid Bluehost - try CrocWeb for speed  
 * **Shopify:** Use a Fiverr gig to optimize site speed  
-* **Mobile first** — Google and users both prefer it  
+* **Mobile first** - Google and users both prefer it  
 * Replace slow carousels with one clear image and an attention-grabbing headline
 
 ### **Core Web Vitals**
@@ -199,7 +199,7 @@ After publishing a page, confirm that the word count matches your brief.
 * Google Search Console (GSC)  
 * Bing Webmaster Tools *(import settings directly from GSC)*  
 * Google Analytics 4 (GA4)  
-* Looker Studio *(formerly Google Data Studio)* — build dashboards combining multiple data sources
+* Looker Studio *(formerly Google Data Studio)* - build dashboards combining multiple data sources
 
 ### **Site Auditing**
 
@@ -228,7 +228,7 @@ After publishing a page, confirm that the word count matches your brief.
 
 ### **AI & Content Creation**
 
-* ChatGPT / Claude *(lack personal experience — always fact-check, optimize, and add personal stories and insights)*  
+* ChatGPT / Claude *(lack personal experience - always fact-check, optimize, and add personal stories and insights)*  
 * Canva, Instagram Edits, CapCut *(for video editing)*
 
 ---
@@ -243,13 +243,13 @@ After publishing a page, confirm that the word count matches your brief.
 6. Use Answer the Public for question-based keyword ideas  
 7. Pull from questions you receive from real leads and customers  
 8. **Start with low-competition long-tail keywords** (e.g., *"local plumbing companies in Detroit"* before *"plumber Detroit"*)  
-9. Low-volume strategy: 2 blogs per week targeting 10–100 monthly searches equals roughly 60,000 searches per year — and with improved topical authority, you'll earn the right to rank for more competitive terms over time
+9. Low-volume strategy: 2 blogs per week targeting 10–100 monthly searches equals roughly 60,000 searches per year - and with improved topical authority, you'll earn the right to rank for more competitive terms over time
 
 ---
 
 ## **Content Writing & Optimization Process**
 
-### **Step 1 — Build a Mini Content Roadmap**
+### **Step 1 - Build a Mini Content Roadmap**
 
 Create a spreadsheet using: SEO Chrome Extension, a keyword tool, Content Analyzer, and Google PageSpeed Insights. For the top 3–5 competing pages, track:
 
@@ -259,15 +259,15 @@ Create a spreadsheet using: SEO Chrome Extension, a keyword tool, Content Analyz
 * Page speed  
 * Backlinks and referring domains
 
-### **Step 2 — Build Your Content Skeleton**
+### **Step 2 - Build Your Content Skeleton**
 
 1. Open the top 3–5 competitor pages  
 2. Copy their headings  
 3. Remove irrelevant ones (e.g., "Related Posts")  
 4. Insert relevant secondary keywords as H2s or H3s where they make sense  
-5. Reword the headings slightly — this is your content skeleton
+5. Reword the headings slightly - this is your content skeleton
 
-### **Step 3 — Draft the Content**
+### **Step 3 - Draft the Content**
 
 1. Copy content from top 3–5 competitors  
 2. Have AI summarize the content  
@@ -285,7 +285,7 @@ Create a spreadsheet using: SEO Chrome Extension, a keyword tool, Content Analyz
 ## **Product Pages**
 
 * Use descriptive keyword-based names (e.g., *"mid-century modern sofa"*) not internal product names like "Florpavia"  
-* Treat product pages like blog posts — add internal links to related products and helpful blog content  
+* Treat product pages like blog posts - add internal links to related products and helpful blog content  
 * **Page layout from top to bottom:** product photos → product name with keyword → star rating → price → Add to Cart button → everything else below the fold
 
 ---
@@ -311,7 +311,7 @@ Each service gets its own dedicated page. The target keyword must appear in:
 
 ---
 
-## **Free Value Ideas — Content & Lead Gen Giveaways**
+## **Free Value Ideas - Content & Lead Gen Giveaways**
 
 Give away for free what others charge for:
 

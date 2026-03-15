@@ -558,6 +558,10 @@ section {
   color: var(--yellow);
 }
 
+.link-underline {
+  text-decoration: underline;
+}
+
 /* Google Reviews */
 .google-reviews {
   background-color: #111111;
